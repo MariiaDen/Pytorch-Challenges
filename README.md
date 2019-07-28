@@ -34,3 +34,26 @@ Create a 5-by-5 2-D tensor with ones on the secondary diagonal and zeros elsewhe
 **Solution:**
 
 [Challenge Day 2 - Solution](https://github.com/MariiaDen/Pytorch-Challenges/blob/master/Challenge%20Day%202%20-%20Solution.py)
+
+***
+## PyTorch Challenge Day 3
+
+**Task:**
+
+Get the 2nd diagonal of tensor X.
+
+    X = [[1, 2, **3**, 4, 5],
+         [6, 7, 8, **9**, 10],
+         [11, 12, 13, 14, **15**]]
+
+**Expected output:**
+   
+    tensor([[0., 0., 0., 0., 1.],
+            [0., 0., 0., 1., 0.],
+            [0., 0., 1., 0., 0.],
+            [0., 1., 0., 0., 0.],
+            [1., 0., 0., 0., 0.]])
+
+**Solution:**
+
+[Challenge Day 2 - Solution](https://github.com/MariiaDen/Pytorch-Challenges/blob/master/Challenge%20Day%202%20-%20Solution.py)
